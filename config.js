@@ -6,7 +6,7 @@ const portfolio = {
   phone: "347-610-7188", // optional — leave blank to hide
   intradayDashboard: "https://public.tableau.com/app/profile/ofir.zadok/viz/IntradayMarketDirectionResearch/ExecutiveOverview", // public Tableau Public dashboard URL
   intradayGithub: "https://github.com/Ozadok10/intraday-market-direction-research", // published GitHub repository URL
-  treasuryDashboard: "https://public.tableau.com/app/profile/ofir.zadok/viz/Treasury_Yield_Curve_Equity_Volatility/StatisticalEvidence", // public Tableau Public dashboard URL
+  treasuryDashboard: "https://public.tableau.com/app/profile/ofir.zadok/viz/Treasury_Yield_Curve_Equity_Volatility/ExecutiveOverview", // public Tableau Public dashboard URL
   treasuryGithub: "https://github.com/Ozadok10/treasury-yield-equity-volatility" // published GitHub repository URL
 };
 
