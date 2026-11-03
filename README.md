@@ -1,16 +1,15 @@
-# Quantitative Research Portfolio — GitHub Pages site (draft)
+# Quantitative Research Portfolio
 
-A clean static website (no build framework) for two research projects.
+A lightweight GitHub Pages website presenting two quantitative finance research projects, with links to source repositories and Tableau dashboards.
 
-## Before publishing
-1. Name, email, and LinkedIn have been added to `config.js`. Add an optional phone number, live Tableau Public dashboard URLs, and GitHub repository URLs when available.
-2. Review all research descriptions and published README limitations.
-3. In GitHub, create a third repository (`quantitative-research-portfolio`), upload these files at the repository root, then Settings → Pages → Deploy from branch → main / (root).
-4. Open the published site, test both project buttons and contact links on desktop and mobile.
+## How to publish
 
-Links to research repositories and Tableau dashboards intentionally remain disabled until their actual public URLs are supplied. They are not invented.
+Upload `index.html`, `styles.css`, and `config.js` to the root of the public website repository. GitHub Pages uses the `main` branch and `/ (root)`.
 
-## Research publication status
-The intraday research package has 8/9 selected scripts tested against originals, 28/28 CSV exact matches, with one missing R04 input. The Treasury source archive has a passing SQLite integrity check and additional numerical checks. Research repositories are not automatically publicly reproducible until missing inputs, source licensing, and clean installation checks are resolved or documented.
+## Update project links
 
-The site uses remote Google Fonts, with system fonts as fallback. No analytics, tracking, server code, or external JavaScript frameworks.
+The GitHub repository links are configured in `config.js`. The Tableau dashboard URLs are intentionally blank until the public Tableau links are confirmed. Each research repository is currently private and will be inaccessible to visitors until its visibility changes.
+
+## Content and tooling
+
+The portfolio presents research using Python, SQL, statistics, and Tableau. ChatGPT is acknowledged as an AI support tool for coding and communication; statements about specific other tools should only be added if confirmed.
